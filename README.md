@@ -3,6 +3,11 @@
 
 A python script to exract recursively path strings into a file
 
+Use json file as the argument while executing the file
+
+```python
+python3 test.py <json_file>
+```
 
 for example -
 
