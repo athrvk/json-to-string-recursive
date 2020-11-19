@@ -4,8 +4,8 @@ import json
 # print ('Argument List:', type(sys.argv))
  
  
-# f = open(sys.argv[1])
-# data = json.load(f)
+f = open(sys.argv[1])
+data = json.load(f)
  
 my_list = [""]
 path = ""
@@ -45,7 +45,7 @@ def recur(object, path, count):
 	return my_list[-1]
  
  
-recur(mydata, path, 0)
+recur(data, path, 0)
  
 # for i in my_list:
 # 	print(i)
